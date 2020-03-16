@@ -13,7 +13,7 @@ export default class CounterClass extends Component {
     }
 
     incrementCounter() {
-        this.setState({ counter: ++this.state.counter })
+        this.setState({ counter: this.state.counter + 1})
     }
 
     render() {
